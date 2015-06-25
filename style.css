@@ -1,5 +1,8 @@
 /*For extra small device*/
-
+body {
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
 @media(min-width:120px) and (max-width:767px) {
 	.navbar-default {
 		background: rgba(242, 246, 248, 1);
